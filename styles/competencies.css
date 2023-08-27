@@ -1,0 +1,37 @@
+.competencies {
+    min-width: 1400px;
+}
+
+.competencies__title {
+    font-size: 55px;
+    line-height: 72px;
+    letter-spacing: -1.65px;
+}
+
+.competencies__block-image {
+    margin-top: 60px;
+}
+
+.competencies__block-image_margin {
+    margin-top: 48px;
+}
+
+.competencies__block-title {
+    margin-top: 12px;
+    font-size: 35px;
+    line-height: 46px;
+    letter-spacing: -1.05px;
+    color: #1bff07;
+}
+
+.competencies__block-title_width {
+    width: 651px;
+}
+
+.competencies__block-text {
+    margin-top: 15px;
+    width: 778px;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: -0.66px;
+}

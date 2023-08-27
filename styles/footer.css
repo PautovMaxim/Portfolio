@@ -1,0 +1,33 @@
+footer {
+    min-width: 1400px;
+    height: 223px;
+    background-color: #ffffff;
+    color: #000000;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.footer__link {
+    display: inline-block;
+    margin-top: 76px;
+    font-family: 'manrope';
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.66px;
+    color: #000;
+    text-decoration: none;
+}
+
+.footer__link:hover {
+    opacity: 0.5;
+}
+
+.footer__text {
+    margin-top: 66px;
+    font-family: 'manrope';
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.6px;
+    color: #000;
+    opacity: 0.5;
+}

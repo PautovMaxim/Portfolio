@@ -1,0 +1,23 @@
+@import url(../styles/header.css);
+@import url(../styles/projects.css);
+@import url(../styles/competencies.css);
+@import url(../styles/tasks.css);
+@import url(../styles/contacts.css);
+@import url(../styles/footer.css);
+
+body {
+    font-family: 'IBM Plex Mono', 'Manrope', monospace;
+    background-color: #000;
+    color: #ffffff;
+}
+
+section {
+    margin-bottom: 150px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1400px;
+    padding-left: 125px;
+    padding-right: 125px;
+}
