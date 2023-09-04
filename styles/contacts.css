@@ -2,44 +2,44 @@
     position: relative;
     min-width: 1400px;
     height: 717px;
-    border-radius: 30px;
     background: #191c19;
     background-image: url(../resources/background-contacts.png);
     background-repeat: no-repeat;
     background-position: right;
+    border-radius: 30px;
 }
 
 .contacts__title {
+    bottom: 337px;
     display: inline-block;
     position: absolute;
-    bottom: 337px;
-    color: #fff;
     font-size: 35px;
     line-height: 60px;
     letter-spacing: -1.05px;
+    color: #fff;
 }
 
 .contacts-nav {
-    position: absolute;
     bottom: 89px;
+    position: absolute;
     width: 310px;
     height: 220px;
 }
 
-.contacts__link {
-    display: block;
+.contacts-nav__link {
     margin-bottom: 20px;
-    color: #fff;
+    display: block;
     font-size: 60px;
     line-height: 60px;
     letter-spacing: -1.8px;
     text-decoration: none;
+    color: #fff;
 }
 
 .contacts__link:nth-last-child(1) {
     margin-bottom: 0px;
 }
 
-.contacts__link:hover {
+.contacts-nav__link:hover {
     color: #1bff07;
 }

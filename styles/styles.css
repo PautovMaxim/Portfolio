@@ -5,6 +5,10 @@
 @import url(../styles/contacts.css);
 @import url(../styles/footer.css);
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'IBM Plex Mono', 'Manrope', monospace;
     background-color: #000;

@@ -8,14 +8,15 @@ footer {
 }
 
 .footer__link {
-    display: inline-block;
     margin-top: 76px;
-    font-family: 'manrope';
+    display: inline-block;
+    font-family: 'Manrope';
     font-size: 22px;
+    font-weight: 400;
     line-height: 30px;
     letter-spacing: -0.66px;
-    color: #000;
     text-decoration: none;
+    color: #000;
 }
 
 .footer__link:hover {
@@ -24,10 +25,11 @@ footer {
 
 .footer__text {
     margin-top: 66px;
-    font-family: 'manrope';
+    font-family: 'Manrope';
     font-size: 20px;
+    font-weight: 400;
     line-height: 27px;
     letter-spacing: -0.6px;
-    color: #000;
     opacity: 0.5;
+    color: #000;
 }

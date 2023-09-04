@@ -1,7 +1,8 @@
 .nav {
-    position: relative;
     margin-bottom: 150px;
     padding-top: 33px;
+    position: relative;
+    min-width: 1400px;
     height: 765px;
     background-image: url(../resources/background-header.jpg);
     background-size: cover;
@@ -12,25 +13,24 @@
 .nav__logo {
     display: block;
     position: absolute;
-    width: 130px;
+    width: 146px;
     height: 39px;
-    background-color: black;
     border-radius: 100px;
+    background-color: black;
     text-decoration: none;
 }
 
 .nav__logo-title {
-    position: relative;
     left: 9px;
-    right: 12px;
     bottom: 9px;
-    width: 109px;
-    line-height: 55px;
+    position: relative;
+    width: 132px;
     font-size: 42.414px;
     font-weight: 700;
-    color: #1bff07;
+    line-height: 55px;
     letter-spacing: -4.666px;
     text-transform: uppercase;
+    color: #1bff07;
 }
 
 .nav-menu {
@@ -40,10 +40,9 @@
 .nav-menu__link {
     margin-right: 50px;
     font-size: 18px;
-    font-weight: 400;
+    letter-spacing: -0.54px;
     text-decoration: none;
     color: #ffffff;
-    letter-spacing: -0.54px;
 }
 
 .nav-menu__link:nth-last-child(1) {
@@ -55,8 +54,8 @@
 }
 
 .nav__text {
-    position: absolute;
     bottom: 328px;
+    position: absolute;
     width: 430px;
     font-size: 20px;
     line-height: normal;
@@ -65,13 +64,12 @@
 }
 
 .nav__title {
-    position: absolute;
     bottom: 94px;
+    position: absolute;
     width: 919px;
     height: 205px;
-    color: #1bff07;
     font-size: 80px;
-    font-weight: 400;
     line-height: 70px;
     letter-spacing: -2.4px;
+    color: #1bff07;
 }
