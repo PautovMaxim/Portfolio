@@ -20,26 +20,41 @@
     </head>
 
     <body>
-        <header class="nav">
+        <header class="header">
             <div class="container">
-                <a href="#" class="nav__logo">
-                    <h2 class="nav__logo-title">PAUTOV</h2>
-                </a>
-
-                <div class="nav-menu">
-                    <a href="#projects" class="nav-menu__link">портфолио</a>
-                    <a href="#competencies" class="nav-menu__link"
-                        >компетенции</a
-                    >
-                    <a href="#tasks" class="nav-menu__link">услуги</a>
-                    <a href="#contacts" class="nav-menu__link">контакты</a>
+                <div class="header-inner">
+                    <a href="#" class="header__logo">
+                        <h2 class="header__logo-title">PAUTOV</h2>
+                    </a>
+                    <nav class="nav">
+                        <ul class="nav__links">
+                            <li>
+                                <a href="#projects" class="nav__link"
+                                    >портфолио</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#competencies" class="nav__link"
+                                    >компетенции</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#tasks" class="nav__link">услуги</a>
+                            </li>
+                            <li>
+                                <a href="#contacts" class="nav__link"
+                                    >контакты</a
+                                >
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
-                <p class="nav__text">
+                <p class="header__text">
                     Разрабатываю имиджевые сайты для малого и среднего бизнеса,
                     которые повышают престиж компании и позволяют выделиться на
                     фоне конкурентов
                 </p>
-                <h1 class="nav__title">
+                <h1 class="header__title">
                     Привет, я Макс — фронтенд разработчик и дизайнер сайтов
                 </h1>
             </div>
@@ -54,54 +69,54 @@
                             <a
                                 href="https://pautovmaxim.github.io/metrica/"
                                 target="_blank"
-                                class="projects__block-gradient"
+                                class="projects__block-link"
                             >
                                 <img
                                     src="resources/project1.png"
                                     alt="дизайн сайта"
                                     class="projects__block-image"
                                 />
+                                <h3 class="projects__block-title">Metrica</h3>
+                                <p class="projects__block-text">
+                                    дизайн,верстка, настройка
+                                </p>
                             </a>
-                            <h3 class="projects__block-title">Metrica</h3>
-                            <p class="projects__block-text">
-                                дизайн,верстка, настройка
-                            </p>
                         </li>
 
                         <li class="projects__block">
                             <a
                                 href="#"
                                 target="_blank"
-                                class="projects__block-gradient"
+                                class="projects__block-link"
                             >
                                 <img
                                     class="projects__block-image"
                                     src="resources/project2.png"
                                     alt="интерфейс сайта"
                                 />
+                                <h3 class="projects__block-title">GLASS</h3>
+                                <p class="projects__block-text">
+                                    разработка интерфейса
+                                </p>
                             </a>
-                            <h3 class="projects__block-title">GLASS</h3>
-                            <p class="projects__block-text">
-                                разработка интерфейса
-                            </p>
                         </li>
 
                         <li class="projects__block">
                             <a
                                 href="#"
                                 target="_blank"
-                                class="projects__block-gradient"
+                                class="projects__block-link"
                             >
                                 <img
                                     src="resources/project3.png"
                                     alt="интерфейс сайта"
                                     class="projects__block-image"
                                 />
+                                <h3 class="projects__block-title">Fesiyen</h3>
+                                <p class="projects__block-text">
+                                    разработка интерфейса
+                                </p>
                             </a>
-                            <h3 class="projects__block-title">Fesiyen</h3>
-                            <p class="projects__block-text">
-                                разработка интерфейса
-                            </p>
                         </li>
                     </ul>
 
@@ -196,11 +211,11 @@
                                 alt="Разработка сайта"
                             />
 
-                            <div class="tasks-gray-block">
-                                <h3 class="tasks-gray-block__title">
+                            <div class="tasks__content">
+                                <h3 class="tasks__content-title">
                                     Разработка сайта под ключ
                                 </h3>
-                                <p class="tasks-gray-block__text">
+                                <p class="tasks__content-text">
                                     Это создание дизайн веб-сайтов, созданный
                                     для удобства пользователя и решения
                                     бизнес-задач
@@ -212,18 +227,18 @@
                             </div>
                         </li>
 
-                        <li class="tasks__block tasks__block_margin">
+                        <li class="tasks__block">
                             <img
                                 class="tasks__block-image"
                                 src="resources/task2.png"
                                 alt="Вёрстка сайта"
                             />
 
-                            <div class="tasks-gray-block">
-                                <h3 class="tasks-gray-block__title">
+                            <div class="tasks__content">
+                                <h3 class="tasks__content-title">
                                     Верстка сайтов
                                 </h3>
-                                <p class="tasks-gray-block__text">
+                                <p class="tasks__content-text">
                                     Это процесс создания HTML-документов и
                                     применения к ним стилей на CSS. Фронтенд
                                     разработчик может помочь создать
@@ -240,11 +255,11 @@
                                 alt="Разработка мобильного интерфейса"
                             />
 
-                            <div class="tasks-gray-block">
-                                <h3 class="tasks-gray-block__title">
+                            <div class="tasks__content">
+                                <h3 class="tasks__content-title">
                                     Разработка мобильного интерфейса
                                 </h3>
-                                <p class="tasks-gray-block__text">
+                                <p class="tasks__content-text">
                                     Это процесс создания интерактивных элементов
                                     на странице <br />
                                     с помощью JavaScript. Фронтенд разработчик

@@ -34,6 +34,7 @@
     letter-spacing: -1.8px;
     text-decoration: none;
     color: #fff;
+    transition: 0.3s;
 }
 
 .contacts__link:nth-last-child(1) {

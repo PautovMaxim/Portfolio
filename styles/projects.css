@@ -11,20 +11,19 @@
 }
 
 .projects__block {
-    margin-bottom: 0px;
     position: relative;
     width: 1150px;
     height: 550px;
     object-fit: cover;
 }
 
-.projects__block-gradient {
+.projects__block-link {
     position: relative;
     display: inline-block;
-    line-height: 0;
+    transition: all 0.3s ease;
 }
 
-.projects__block-gradient::after {
+.projects__block-link::after {
     content: "";
     position: absolute;
     display: block;
@@ -37,7 +36,7 @@
     opacity: 0.8;
 }
 
-.projects__block-gradient:hover {
+.projects__block-link:hover {
     opacity: 0.5;
 }
 
@@ -57,6 +56,7 @@
     letter-spacing: -1.05px;
     text-decoration: none;
     color: #ffffff;
+    z-index: 10;
 }
 
 .projects__block-text {
@@ -67,6 +67,7 @@
     line-height: normal;
     letter-spacing: -0.9px;
     color: #fff;
+    z-index: 10;
 }
 
 .projects__btn-watch {
@@ -88,4 +89,5 @@
     border: 1px solid #1bff07;
     background-color: #000000;
     color: #1bff07;
+    transition: 0.4s;
 }

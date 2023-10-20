@@ -17,6 +17,7 @@ footer {
     letter-spacing: -0.66px;
     text-decoration: none;
     color: #000;
+    transition: 0.3s;
 }
 
 .footer__link:hover {

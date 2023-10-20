@@ -15,10 +15,6 @@
     margin-bottom: 74px;
 }
 
-.tasks__block_margin {
-    margin-bottom: 137px;
-}
-
 .tasks-block:nth-last-child(1) {
     margin-bottom: 0px;
 }
@@ -28,14 +24,14 @@
     height: 200px;
 }
 
-.tasks-gray-block {
+.tasks__content {
     position: relative;
     height: 283px;
     border-radius: 30px;
     background: #191c19;
 }
 
-.tasks-gray-block__title {
+.tasks__content-title {
     left: 40px;
     bottom: 171px;
     position: absolute;
@@ -45,7 +41,7 @@
     color: #1bff07;
 }
 
-.tasks-gray-block__text {
+.tasks__content-text {
     left: 40px;
     top: 127px;
     position: absolute;
